@@ -1,9 +1,11 @@
 .navbar{
   float:right;
+  border:1px solid red;//영역
 } //상단 네비게이션 바 라고 많이 부름
 
-.navitem{
+.nav-item{
   text-decoration: none;
   color:black;
+  margin-right:15px;  
 } //텍스트 밑줄 지워줄떄 쓰임 !
 //글자 색 검정색으로 변경
