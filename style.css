@@ -1,4 +1,3 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
+.navbar{
+  float:right;
+} //상단 네비게이션 바 라고 많이 부름
