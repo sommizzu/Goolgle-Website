@@ -6,7 +6,12 @@
 
 .nav-item{
   text-decoration: none;
-  color:black;
-  margin-right:15px;  
+  color: black;
+  margin-right: 15px;
+} 
 } //텍스트 밑줄 지워줄떄 쓰임 !
 //글자 색 검정색으로 변경
+
+.nav-item:hover{
+  text-decoration: underline;
+}
