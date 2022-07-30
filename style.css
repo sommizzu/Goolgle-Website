@@ -61,6 +61,6 @@ body{
   border: 1px solid #f8f9fa;
   font-family: arial, sans-serif;
   border-radius: 4px;
-  padding: 0 16px;
+  padding: 0 16px; //패딩 값 1개,2개,4개, 1개 : 네방향이 같은 것, 2개 가로방향 위아래, 세로방향 오왼
   margin: 11px 9px
 }
