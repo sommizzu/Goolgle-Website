@@ -1,3 +1,7 @@
+body{
+  dispaly:contents;
+}
+
 .navbar{
   float:right;  
   border:1px solid red;//영역
@@ -20,15 +24,3 @@
   margin-top:300px;
 }
 
-
-//display:block (HTML default(고유)속성값)
-//dispaly - html태그를 어떤규칙으로 배열을 할거냐
-//block 태그들을 수직으로 배열을 함 
-//flex 수평 배열(옆으로 배열)
-//inline :모든 요소 한줄에 
-
-//element.style{
-display: block
-}
-
-//요소들을 놓는 규칙 display
