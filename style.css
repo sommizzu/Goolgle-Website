@@ -1,84 +1,117 @@
-body{
+body {
   display: contents;
+  font-family: arial, sans-serif;
 }
 
-.navbar{
+.navbar {
   float: right;
   margin: 20px;
 }
 
-.nav-item{
+.nav-item {
   text-decoration: none;
   color: black;
   margin-right: 15px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   text-decoration: underline;
 }
 
-.main{
+.main {
   margin-top: 300px;
   text-align: center;
 }
 
-.input-area{
+.input-area {
   margin-top: 20px;
 }
-
-.input-box{
-  width: 561px;
-  height: 44px;
+.input-box {
+  width: 584px;
+  height: 46px;
   border-radius: 24px;
-  padding-left: 50px;
+  border: 1px solid #dfe1e5;
+  padding-left: 40px;
   padding-right: 40px;
-  border: 1px solid #dfe1e5
 }
-
-.search-icon{
+.search-icon {
   position: relative;
   left: 40px;
-  height: 24px;
-  width: 24px;
   color: #9aa0a6;
 }
-
-.mic-icon{
+.mic-icon {
   position: relative;
   right: 40px;
-  height: 24px;
-  width: 24px;
   color: #9aa0a6;
 }
 
-.button-area{
+.button-area {
   padding-top: 18px;
 }
 
-.button-style{
+.button-style {
   height: 36px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  font-family: arial, sans-serif;
   border-radius: 4px;
-  padding: 0 16px; //패딩 값 1개,2개,4개, 1개 : 네방향이 같은 것, 2개 가로방향 위아래, 세로방향 오왼
-  margin: 11px 9px
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  padding: 0 16px;
+  margin: 11px 4px;
 }
 
-.button-style:hover{
+.button-style:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
 }
 
-.language{
-  text-decoration: none;
-  padding: 0px;
-  color: #1a0dab;
+.language-area {
+  margin-top: 18px;
 }
 
-.footer{
+.language {
+  text-decoration: none;
+  padding: 0 3px;
+  color: #1a0dab;
+}
+.language:hover {
+  text-decoration: underline;
+}
+
+.footer {
   position: absolute;
   bottom: 0px;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.first-line {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  text-align:left;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.second-line {
+  padding: 15px 30px;
+  font-size: 15px;
+  text-align:left;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.second-line-second {
+  float: right;
+}
+
+.second-line a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  padding-right: 15px;
+}
+
+.second-line a:hover {
+  text-decoration: underline;
 }
