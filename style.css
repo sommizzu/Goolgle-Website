@@ -15,3 +15,7 @@
 .nav-item:hover{
   text-decoration: underline;
 }
+
+.main{
+  margin-top:300px;
+}
