@@ -77,3 +77,8 @@ body{
   padding: 0px;
   color: #1a0dab;
 }
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+}
