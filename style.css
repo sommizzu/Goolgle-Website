@@ -65,5 +65,15 @@ body{
   margin: 11px 9px
 }
 
-//hover이벤트 확인하는 법 - 커서 활용해서 버튼을 클릭한 후 , 우 클릭하면 , focus state 누르면 이벤트 종류대로 나옴 - hover선택 - hover일때의 스타일이 아래에 쭉 뜸 스타일 참고 하면 됨 .
-// box-shadow등등 스타일 전체 복사해오면 됨 
+.button-style:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.language{
+  text-decoration: none;
+  padding: 0px;
+  color: #1a0dab;
+}
